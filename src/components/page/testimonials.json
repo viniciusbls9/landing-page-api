@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_testimonials",
+  "info": {
+    "displayName": "testimonials",
+    "icon": "golf-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "testmonialCard": {
+      "displayName": "testmonialCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.testmonial-card",
+      "required": true
+    }
+  }
+}

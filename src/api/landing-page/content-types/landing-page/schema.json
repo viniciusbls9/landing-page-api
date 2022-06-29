@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.banner",
+      "required": true
+    },
+    "about": {
+      "displayName": "about",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about",
+      "required": true
+    },
+    "serviceSection": {
+      "displayName": "servicesSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.services-section"
+    },
+    "CTA": {
+      "displayName": "Call to Action",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.call-to-action",
+      "required": true
+    },
+    "testimonials": {
+      "displayName": "testimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.testimonials"
+    },
+    "footer": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    },
+    "theme": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

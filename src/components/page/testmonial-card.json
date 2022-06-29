@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_testmonial_cards",
+  "info": {
+    "displayName": "testmonialCard",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "testmonial": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

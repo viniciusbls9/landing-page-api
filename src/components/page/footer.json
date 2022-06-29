@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "footerSection": {
+      "displayName": "footerSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.footer-section"
+    }
+  }
+}

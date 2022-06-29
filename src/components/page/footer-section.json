@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_footer_sections",
+  "info": {
+    "displayName": "footerSection",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "values": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

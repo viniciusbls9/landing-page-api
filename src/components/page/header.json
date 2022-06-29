@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "socialLinks": {
+      "displayName": "social links",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-links",
+      "required": true
+    }
+  }
+}
